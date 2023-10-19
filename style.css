@@ -1,0 +1,90 @@
+h1{
+ font-size: 90px;
+ color: blueviolet;
+ text-decoration: dotted;
+}
+
+
+.heading2{
+    font-size: 60px;
+    color: orange;
+}
+
+#heading3{
+    font-size: 40px;
+    color: green;
+
+}
+/* .img-container{
+    border: 3px solid green;
+    height: 150px;
+    width: 150px;
+    padding: 20px;
+    margin: 20px;
+}
+.picture{
+    width: 100%;
+    height: 100%;
+} */
+.picture{
+    height: 150px;
+    width: 150px;
+    border: 3px solid green ;
+    /* padding: 20px 40px 60px 80px; */
+    /* padding: 20px 40px; */
+    padding: 40px;
+    margin: 40px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+/* multiple selectors */
+h3,li{
+    font-style: italic;
+    color: blue;
+    font-size: 22px;
+
+    /* decendant selectors */
+}
+.parent .child{
+    font-style: italic;
+    color: red;
+
+    /* child combinators */
+}
+.parent > a{
+    font-size: 30px;
+    background-color: beige;
+}
+
+
+/* adjacent-sibling combinator */
+.child +a{
+    font-size: 15px;
+    font-weight: bold;
+    width: 100%;
+    background-color: blueviolet;
+
+    /* general sibling combinator */
+}
+.child~a{
+    font-size: 100px;
+}
+.github:hover{
+    color: red;
+    font-size: 40px;
+}
+.gmc:active{
+    color: green;
+    font-size: 80px;
+}
+.css{
+  text-align: end;
+  word-spacing: 40px;
+  text-align: end;
+}
+.text2{
+    border: 1px solid black;
+}
+li{
+    display: block;
+}
